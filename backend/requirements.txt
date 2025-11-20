@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+moviepy
+requests
+python-dotenv
+openai
+pillow
