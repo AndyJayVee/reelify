@@ -8,4 +8,4 @@ app = FastAPI(title="Reelify API", version="0.1.0")
 async def generate(request: VideoRequest):
     script = generate_script(request)
     create_simple_video(script)
-    return {"status": "success", "script": script}
+    return {"status": "success", "script" script}
